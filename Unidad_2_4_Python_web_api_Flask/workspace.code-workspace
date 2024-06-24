@@ -1,0 +1,17 @@
+{
+    "folders": [
+        {
+            "path": "."
+        }
+    ],
+    "settings": {
+        "files.associations": {
+            "*.embeddedhtml": "html",
+            "string.h": "c",
+            "stdio.h": "c",
+            "stdbool.h": "c",
+            "stdlib.h": "c"
+        },
+        "git.ignoreLimitWarning": true
+    }
+}

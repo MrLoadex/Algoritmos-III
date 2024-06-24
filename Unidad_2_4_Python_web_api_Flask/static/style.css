@@ -1,0 +1,115 @@
+body {
+    font-family: 'Open Sans', sans-serif; /* Fuente sans-serif minimalista */
+    background-color: #f4f4f8; /* Gris azulado muy claro */
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.8); /* Blanco con transparencia */
+    padding: 40px; /* Más espacio interior */
+    border-radius: 12px; /* Bordes más redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Sombra más sutil */
+    max-width: 850px;
+    width: 90%;
+    margin-top: 50px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #222; /* Gris oscuro para títulos */
+    font-family: 'Raleway', sans-serif; /* Fuente diferente para títulos */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03); /* Sombra sutil en la tabla */
+}
+
+table, th, td {
+    border: none; /* Sin bordes en la tabla */
+}
+
+th {
+    padding: 18px;
+    text-align: left;
+    background-color: rgba(51, 102, 153, 0.1); /* Azul claro con transparencia */
+    color: #336699; /* Azul más oscuro para texto de encabezado */
+    font-weight: 600; /* Encabezado en negrita */
+}
+
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tbody tr:nth-child(even) {
+    background-color: rgba(51, 102, 153, 0.05); /* Azul muy claro con transparencia */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input, button {
+    margin-bottom: 20px;
+    padding: 14px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 80%;
+    font-size: 16px; /* Tamaño de fuente más grande */
+}
+
+button {
+    background-color: #336699; /* Azul para el botón */
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #29527a; /* Azul más oscuro al pasar el ratón */
+}
+.header {
+    background-color: #f0f0f5; /* Color de fondo de la cabecera */
+    padding: 15px 0; /* Espaciado vertical */
+}
+
+.header ul {
+    list-style: none; /* Elimina los puntos de la lista */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Alinea los elementos en línea */
+    justify-content: center; /* Centra horizontalmente */
+}
+
+.header li {
+    margin: 0 10px; /* Espacio entre las solapas */
+}
+
+.header a {
+    display: block; /* Hace que el enlace ocupe todo el espacio del li */
+    padding: 10px 20px; /* Espaciado interno de las solapas */
+    text-decoration: none; /* Elimina el subrayado */
+    color: #333; /* Color del texto */
+    border-radius: 5px; /* Bordes redondeados */
+    transition: background-color 0.3s; /* Transición suave al pasar el ratón */
+}
+
+.header a:hover {
+    background-color: #e0e0e5; /* Color de fondo al pasar el ratón */
+}
