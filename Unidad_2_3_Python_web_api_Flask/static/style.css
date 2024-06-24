@@ -1,0 +1,87 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #103f79;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: #eed8aa;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    max-width: 800px;
+    width: 100%;
+    margin: 20px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #103f79;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #103f79;
+}
+
+th{
+    padding: 12px;
+    text-align: left;
+    color: #f3b229;
+}
+td {
+    padding: 12px;
+    text-align: left;
+    color: #103f79;
+}
+
+th {
+    background-color: #103f79;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #f3b229;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #103f79;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #103f79;
+    border-radius: 5px;
+    width: 80%;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #103f79;
+    color: #eed8aa;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #103f79;
+}
