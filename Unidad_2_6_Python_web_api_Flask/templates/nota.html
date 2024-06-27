@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Personas</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul>
+                <li><a href="/">Home</a></li>
+                <li><a href="/agregar">Agregar</a></li>
+                <li><a href="/Eliminar">Eliminar</a></li>
+                <li><a href="/seleccionar_notas">Buscar Notas</a></li>
+            </ul>
+        </div>
+
+        <h1>Lista de Notas</h1>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>ID de la persona</th>
+                    <th>Nota</th>
+                    <th>Fecha y Hora</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for nota in notas %}
+                <tr>
+                    <td>{{ nota.id }}</td>
+                    <td>{{ nota.person_id }}</td>
+                    <td>{{ nota.content }}</td>
+                    <td>{{ nota.timestamp }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
