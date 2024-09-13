@@ -56,13 +56,13 @@ Responder el siguiente cuestionario en función de la bibliografía Obligatoria.
 
 int factorial(int n) {
     
-    if (n \== 0\) {
+    if (n == 0) {
 
         return 1; // Caso base
 
     } else {
 
-        return n \* factorial(n \- 1); // Llamada recursiva
+        return n * factorial(n - 1); // Llamada recursiva
 
     }
     
