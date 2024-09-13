@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"iostream": "cpp",
+			"new": "cpp",
+			"string": "cpp",
+			"ostream": "cpp",
+			"text_encoding": "cpp",
+			"typeinfo": "cpp"
+		}
+	}
+}
