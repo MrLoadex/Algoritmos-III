@@ -55,6 +55,7 @@ Responder el siguiente cuestionario en función de la bibliografía Obligatoria.
 3\. La función recursiva va ‘acumulando’ sus instancias de ejecución como elementos de una pila y al finalizar debe ‘volver al principio’ para retornar un dato. Por ejemplo:
 
 int factorial(int n) {
+    
     if (n \== 0\) {
 
         return 1; // Caso base
@@ -64,6 +65,7 @@ int factorial(int n) {
         return n \* factorial(n \- 1); // Llamada recursiva
 
     }
+    
 }
 
 4\. 
